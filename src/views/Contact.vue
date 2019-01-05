@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="contact">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
-export default class Home extends Vue {
-  @Prop({ default: 'This is an home page' }) msg!: string
+export default class Contact extends Vue {
+  @Prop({ default: 'This is an contact page' }) msg!: string
 }
 </script>
