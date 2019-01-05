@@ -8,10 +8,10 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-    data () {
-        return {
-            msg: 'This is an about page',
-        }
+  data () {
+    return {
+      msg: 'This is an about page'
     }
+  }
 })
 </script>

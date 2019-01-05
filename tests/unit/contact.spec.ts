@@ -2,7 +2,6 @@ import { shallowMount, mount } from '@vue/test-utils'
 import Contact from '@/views/Contact.vue'
 
 describe('Contact.vue', () => {
-
   test('is a Vue instance', () => {
     const wrapper = mount(Contact)
     expect(wrapper.isVueInstance()).toBeTruthy()
@@ -25,5 +24,4 @@ describe('Contact.vue', () => {
     const wrapper = mount(Contact)
     expect(wrapper.text()).toContain('This is an contact page')
   })
-
 })

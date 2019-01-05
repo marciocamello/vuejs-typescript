@@ -2,7 +2,6 @@ import { shallowMount, mount } from '@vue/test-utils'
 import Home from '@/views/Home.vue'
 
 describe('Home.vue', () => {
-
   test('is a Vue instance', () => {
     const wrapper = mount(Home)
     expect(wrapper.isVueInstance()).toBeTruthy()
@@ -25,5 +24,4 @@ describe('Home.vue', () => {
     const wrapper = mount(Home)
     expect(wrapper.text()).toContain('This is an home page')
   })
-
 })
